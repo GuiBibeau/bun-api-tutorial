@@ -1,0 +1,21 @@
+{
+  "name": "bun-api-starter",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts",
+    "build": "bun build index.ts",
+    "start": "NODE_ENV=production bun index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "latest",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia": "^0.8.8"
+  }
+}
